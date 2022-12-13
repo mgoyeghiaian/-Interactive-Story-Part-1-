@@ -1,0 +1,298 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Rochester&family=Rubik+Vinyl&display=swap');
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(187deg, rgba(2,0,36,1) 0%, rgba(58,57,71,1) 28%, rgba(76,76,82,1) 44%, rgba(0,212,255,1) 100%);
+cursor: url(https://cur.cursors-4u.net/cursors/cur-3/cur238.ani), url(https://cur.cursors-4u.net/cursors/cur-3/cur238.png), auto !important;}
+
+.headerImg{
+  width: 5%; 
+  margin-left: 1%;
+}
+
+nav{
+  display: flex;
+width: 100%;
+background-image: repeating-linear-gradient(-45deg,#302f2f,#302f2f 6px,#2a2929 0,#2a2929 12px);
+}
+
+.NavMenu{
+  display: flex;
+  align-items: center;
+list-style: none;
+justify-content: space-evenly;
+margin: auto;
+}
+
+
+.NavMenu a{
+  display: inline-block;
+  color: rgb(252, 245, 245);
+  width: 12rem;
+  text-decoration: none;
+  font-family: 'Rubik Vinyl', cursive;
+  cursor: url(https://cur.cursors-4u.net/others/oth-1/oth79.cur), auto !important;
+
+}
+
+.Footer p{
+  color: rgba(31, 26, 26, 0.856);
+  text-align: center;
+  font-size: 20px;
+  margin-top: 9%;
+}
+
+/*********Charachters*******/
+
+.Characters a{
+  cursor: url(https://cur.cursors-4u.net/others/oth-1/oth79.cur), auto !important;
+
+}
+.alice{
+  margin-left: 35%;
+  width: 20%;
+  }
+  .alice:hover {
+    transform: scale(0.9); 
+  }
+  .santa{
+    width:35%;
+    margin-bottom: 10%;
+
+  }
+  .santa:hover {
+    transform: scale(0.9); 
+  }
+.Characters h1 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-family: 'Mountains of Christmas', cursive;
+}
+/****About Page*****/
+.about h1{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+.about h4{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+
+
+.about h2{
+  text-align: center;
+  color: rgba(235, 224, 224, 0.856);
+  font-size: 30px;
+margin-right: 10%;
+margin-left: 10%;
+font-family: 'Mountains of Christmas', cursive;
+
+}
+
+.about a{
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+  box-shadow: 5px 5px rgb(3, 131, 216) ;
+  color: black;
+  text-decoration: none;
+  cursor: url(https://cur.cursors-4u.net/others/oth-1/oth79.cur), auto !important;
+}
+
+
+
+  /***Credit***/
+
+
+   .card:hover b{
+    text-decoration: underline;
+font-size: larger;  }
+
+  .Credit h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(241, 233, 233);
+    font-family: 'Mountains of Christmas', cursive;
+  }
+
+  .Credit div{
+   display: inline-block;
+   margin: 1% 15% 3% 15%;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 19%;
+    border-radius: 5px;
+  }
+
+  .card h4{
+    margin-left: 15%;
+    color: rgb(255, 253, 253);
+    font-family: 'Rochester', cursive;
+
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.2);
+  }
+  
+  img {
+    border-radius: 15px 15px 15px 15px;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }  
+
+  .buttonL{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+  }
+.Sbtn{
+  cursor: url(https://cur.cursors-4u.net/games/gam-11/gam1088.cur), auto !important;
+}
+  .buttonL button{
+    background-color:#ff0000;
+    width: 25%;
+    height: 55px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 20px;   
+  }
+.Abtn{
+  cursor: url(https://cur.cursors-4u.net/toons/too-8/too746.ani), url(https://cur.cursors-4u.net/toons/too-8/too746.png), auto !important;
+}
+  .buttonM{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+  
+  }
+
+  .buttonM button{
+    background-color:#0077ff;
+    width: 25%;
+    height: 55px;
+    color: rgb(241, 239, 225);
+    font-weight: bolder; 
+    font-size: 20px; 
+    }
+
+  
+  button a{
+color: white;
+text-decoration: none;
+  }
+
+/************Game Over*****************/
+
+.container {
+  position: relative;
+  width: 75%;
+margin: auto;}
+
+
+
+.container .btn {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(219, 97, 97);
+  color: white;
+  font-size: 25px;
+  padding: 12px 24px;
+  border: none;
+  cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol335.cur), auto !important;  ;
+  border-radius: 5px;
+}
+.container .btn:hover {
+  background-color: rgb(233, 226, 226);
+color: #ff0000;
+}
+
+
+/************* Main ***********************/
+.SantaM h1{
+color: white;
+text-align: center;
+font-size: 50px;
+font-family: 'Mountains of Christmas', cursive;
+
+}
+.AliceM h1{
+  color: white;
+text-align: center;
+font-size: 50px;
+font-family: 'Mountains of Christmas', cursive;
+
+}
+.aliceThinking img{
+  width: 42rem;
+  margin-left: 45rem;
+}
+
+.santaThinking img{
+  width: 48rem;
+  margin-left: 45rem;
+}
+
+/**************Congratulation***********************/
+.container .Cbtn {
+  position: absolute;
+  top: 90%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  font-size: 25px;
+  padding: 12px 24px;
+  border: none;
+  cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol392.cur), auto !important;
+  border-radius: 5px;
+}
+
+.container .Cbtn:hover {
+  background-color: rgba(230, 110, 110, 0.733);
+color: #fdfdfd;
+}
+
+.Gallery div{
+  display: inline-block;
+  margin: 1% 1% 1% 8%;
+}
+.Gallery h1{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Mountains of Christmas', cursive;}
+  #Lastimg{
+margin-left: 28%;
+  }
+  .cardG {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 35%;
+    border-radius: 5px;
+    }
+
+     .card:hover {
+      transform: scale(1.2); 
+    }
+     .cardG:hover {
+      transform: scale(1.1);
+    }
+
+  
